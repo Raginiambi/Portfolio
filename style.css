@@ -76,7 +76,7 @@ h4{
     width:13vh;
     border-radius: 1vh;
     background-color: #0c183e;
-    color: rgb(94, 174, 249);;
+    color: rgb(94, 174, 249);
     margin-top: 3vh;
     font-weight: bold;
     border-color: rgb(94, 174, 249);
@@ -100,9 +100,13 @@ h4{
   @keyframes blink {
     50% {
       border-color: transparent;
+      
+      
     }
     100%{
-      border-color: transparent;
+      border-color: white;
+      
+      
     }
   }
 @media only screen and (max-width:1170px){
@@ -112,21 +116,68 @@ h4{
         gap:2vh;
     }
 }
-@media only screen and (max-width:963px){
-    #home{
-        display: flex;
-        flex-direction: column;
-        gap:4vh;
+@media only screen and (max-width:369.60px){
+    h1{
+        word-wrap: break-word;
+        width: 43vh;
+       animation: none;
+       border-right: none;
         
     }
-    #content-div{
-        padding-left: 2vh;
+    #content{
+        width:40vh;
     }
     #navbar-main{
         gap:1vh;
         padding-right: 1vh;
+        margin-right: 0%;
     }
     #name{
-        padding-left: 2vh;
+        padding-left: 0vh;
+        margin-right: 0%;
     }
+
+    img{
+        height:45vh;
+        width:44vh;
+        padding-left: 8vh;
+        margin-right: 2vh;
+    }
+
+}
+@media only screen and (min-width:370px)and (max-width:963px ){
+    #home{
+        display: flex;
+        flex-direction: column;
+        gap:2vh;
+        padding-left: 1vh;
+        
+    }
+    /* #content-div{
+        width:60vh;
+    } */
+    #navbar-main{
+        gap:1vh;
+        padding-right: 0vw;
+        margin-right: 0%;
+    }
+    #name{
+        padding-left: 4vw;
+        margin-right: 0%;
+    }
+
+    img{
+        height:45vh;
+        width:44vh;
+        padding-left: 4vh;
+    }
+    h1{
+        word-wrap: break-word;
+        width: 47vh;
+        
+    }
+    #content{
+        width:40vh;
+    }
+    
 }
