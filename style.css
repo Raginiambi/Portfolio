@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #0c183e;
+    color: aliceblue;
+    animation: bounce 3s ;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 4vh;
+
+}
+#name{
+    color: aliceblue;
+    padding-top: 0vh;
+    padding-left: 6vh;
+    font-weight: bold;
+    font-size: 3vh;
+    height:3vh;
+    line-height: 1vh;
+}
+#navbar-main{
+    display: flex;
+    justify-content: end;
+    gap: 7vh;
+    padding-right: 6vh;
+    height:3vh;
+    line-height: 1vh;
+    font-weight: bold;
+
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vh;
+    gap:20vh;
+}
+a{
+    text-decoration: none;
+    color:azure;
+}
+a:hover{
+    border-bottom: #0c183e;
+    color:#0c183e;
+    background-color: aliceblue;
+    
+}
+img{
+    height:83vh;
+    width:80vh;
+    padding-right: 6vh;
+    border-radius: 2vh;
+}
+#content-div{
+    padding-left: 6vh;
+    
+}
+h1{
+    font-size: 6vh;
+    overflow: hidden;
+    animation: typing 4s steps(30, end), blink 0.9s step-end infinite;
+    border-right: 1px solid white;
+    width: 51vh;
+    white-space: nowwrap;
+}
+h4{
+    font-size: 4vh;
+}
+.btn{
+    height: 5vh;
+    width:13vh;
+    border-radius: 1vh;
+    background-color: #0c183e;
+    color: rgb(94, 174, 249);;
+    margin-top: 3vh;
+    font-weight: bold;
+    border-color: rgb(94, 174, 249);
+    
+}
+.btn:hover{
+    background-color: rgb(94, 174, 249);
+    color:black;
+   
+    
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+    100%{
+      border-color: transparent;
+    }
+  }
+@media only screen and (max-width:1170px){
+    #home{
+        display: flex;
+        flex-direction: column;
+        gap:2vh;
+    }
+}
+@media only screen and (max-width:963px){
+    #home{
+        display: flex;
+        flex-direction: column;
+        gap:4vh;
+        
+    }
+    #content-div{
+        padding-left: 2vh;
+    }
+    #navbar-main{
+        gap:1vh;
+        padding-right: 1vh;
+    }
+    #name{
+        padding-left: 2vh;
+    }
+}
