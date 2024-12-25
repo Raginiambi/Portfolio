@@ -129,7 +129,7 @@ h4{
     }
     #navbar-main{
         gap:1vh;
-        padding-left: 3vh;
+        padding-left: 6vh;
         padding-right: 0%;
         margin-right: 0%;
     }
@@ -141,8 +141,14 @@ h4{
     img{
         height:45vh;
         width:44vh;
-        padding-left: 8vh;
-        margin-right: 2vh;
+        padding-left: 13vh;
+       
+    }
+    #btn1{
+        margin-left: 9vh;
+    }
+    #content-div{
+        padding-left: 9vh;
     }
 
 }
@@ -159,6 +165,7 @@ h4{
         gap:1vh;
         padding-right: 0vw;
         margin-right: 0%;
+        
     }
     #name{
         padding-left: 4vw;
@@ -166,8 +173,8 @@ h4{
     }
 
     img{
-        height:65vh;
-        width:54vh;
+        /* height:45vh;
+        width:44vh; */
         padding-left: 4vh;
     }
     h1{
