@@ -116,7 +116,7 @@ h4{
         gap:2vh;
     }
 }
-@media only screen and (max-width:369.60px){
+@media only screen and (max-width:371px){
     h1{
         word-wrap: break-word;
         width: 43vh;
@@ -129,7 +129,8 @@ h4{
     }
     #navbar-main{
         gap:1vh;
-        padding-right: 1vh;
+        /* padding-right: 1vh; */
+        padding-right: 0%;
         margin-right: 0%;
     }
     #name{
@@ -145,7 +146,7 @@ h4{
     }
 
 }
-@media only screen and (min-width:370px)and (max-width:963px ){
+@media only screen and (min-width:372px)and (max-width:963px ){
     #home{
         display: flex;
         flex-direction: column;
@@ -153,9 +154,7 @@ h4{
         padding-left: 1vh;
         
     }
-    /* #content-div{
-        width:60vh;
-    } */
+   
     #navbar-main{
         gap:1vh;
         padding-right: 0vw;
@@ -173,11 +172,9 @@ h4{
     }
     h1{
         word-wrap: break-word;
-        width: 47vh;
+        
         
     }
-    #content{
-        width:40vh;
-    }
+   
     
 }
