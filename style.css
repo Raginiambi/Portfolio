@@ -63,7 +63,7 @@ img{
 #btn-div{
     display: flex;
     flex-direction: row;
-    gap:1vh;
+    gap:2vh;
 }
 h1{
     font-size: 6vh;
@@ -136,7 +136,7 @@ h4{
     #navbar-main{
         gap:2vh;
         padding-left: 6vh;
-        padding-right: 0.5vh;
+        padding-right: 1vh;
         margin-right: 0%;
     }
     #name{
