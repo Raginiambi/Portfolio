@@ -60,6 +60,11 @@ img{
     padding-left: 6vh;
     
 }
+#btn-div{
+    display: flex;
+    flex-direction: row;
+    gap:1vh;
+}
 h1{
     font-size: 6vh;
     overflow: hidden;
