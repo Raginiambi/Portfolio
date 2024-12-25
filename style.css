@@ -129,7 +129,7 @@ h4{
     }
     #navbar-main{
         gap:1vh;
-        /* padding-right: 1vh; */
+        padding-left: 3vh;
         padding-right: 0%;
         margin-right: 0%;
     }
